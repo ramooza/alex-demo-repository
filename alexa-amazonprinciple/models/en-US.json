@@ -1,0 +1,122 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "principles repository",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AmazonPrinciples",
+                    "slots": [
+                        {
+                            "name": "Item",
+                            "type": "List_OF_PRINCIPLES"
+                        }
+                    ],
+                    "samples": [
+                        "Read the details of {Item}",
+                        "tell me more details about {Item}",
+                        "Explain the principle {Item}",
+                        "Explain {Item}",
+                        "give me a leadership principle",
+                        "tell me a leadership principle",
+                        "tell me a principle",
+                        "Tell me an amazon principle"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "List_OF_PRINCIPLES",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Deliver Results"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Have Backbone; Disagree and Commit"
+                             
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dive Deep"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Earn Trust"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Frugality"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bias for Action"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Think Big"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Insist on the Highest Standards"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hire and Develop the Best"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Learn and Be Curious"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Are Right, A Lot"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Invent and Simplify"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ownership"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Customer Obsession"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
